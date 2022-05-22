@@ -416,6 +416,9 @@ body {
     margin-bottom: 30px;
 }
 
+.pic-list-item {
+    flex-basis: calc((100%-90px))/3;
+}
 
 .link-list-item {
     font-weight: 500;
