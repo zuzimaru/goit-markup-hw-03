@@ -441,7 +441,9 @@ body {
 }
 
 .pic-list-item {
-    flex-basis: calc((100%-90px))/3;
+    flex-basis: calc((100%-90px)/4);
+
+
 }
 
 .link-list-item:not(:last-child) {
