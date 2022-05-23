@@ -84,6 +84,7 @@ body {
 }
 
 .link-list-btn {
+    padding: 6px 22px 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
     border: none;
@@ -135,16 +136,11 @@ body {
     margin-left: auto;
 }
 
-.email {
-    margin-right: 50px;
-}
+
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
-
-
 
 .hero {
     padding-top: 200px;
@@ -164,9 +160,7 @@ body {
     max-width: 696px;
 }
 
-.pros-list {
-    padding-top: 94px;
-}
+
 
 .pros {
     display: flex;
@@ -176,15 +170,23 @@ body {
 
 }
 
-.pros list {
+.pros-list {
     display: flex;
-    padding-top: 0px;
+
 }
 
-.pros-item,
+/* .pros list {
+    padding-bottom: 0px;
+} */
+
+.pros-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .team-item:not(:last-child) {
     margin-right: 30px;
 }
+
 
 .pros-title {
     margin-bottom: 10px;
@@ -213,6 +215,9 @@ body {
 }
 
 .menu-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -248,15 +253,15 @@ body {
     color: #757575;
 }
 
-.about,
-.pros-container {
+.about {
     padding-bottom: 94px;
-
 }
 
-.pros-container {
+.pros {
+    padding-bottom: 94px;
     padding-top: 94px;
 }
+
 
 .about-title {
     font-weight: 700;
@@ -265,7 +270,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 
@@ -312,8 +317,16 @@ body {
 
 }
 
+.team-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+
 .team-gallery-title {
-    margin-top: 30px;
+
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -328,7 +341,6 @@ body {
 }
 
 .team-gallery-text {
-    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -342,10 +354,11 @@ body {
     padding-bottom: 60px;
 }
 
-
+.adress-wrapper {
+    margin-top: 20px;
+}
 
 .address-text {
-    margin-top: 20px;
     margin-bottom: 9px;
     font-style: normal;
     font-weight: 400;
@@ -355,16 +368,24 @@ body {
     color: #FFF;
 }
 
+
 .contact-nav {
+    margin-right: 50px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-
 }
 
+.tel-link {
+    margin-right: 0px;
+}
+
+
+
 .contact-link {
+
     display: block;
     font-style: normal;
     font-weight: 400;
@@ -379,9 +400,10 @@ body {
     margin-top: 9px;
 }
 
+.link-list-item {}
+
 .link-list:not(:last-child) {
-    margin-right: 8px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -397,6 +419,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
+    padding-right: 24px;
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE
@@ -404,6 +427,7 @@ body {
 
 .links {
     padding-bottom: 94px;
+    padding-top: 94px;
 
 }
 
@@ -420,6 +444,10 @@ body {
     flex-basis: calc((100%-90px))/3;
 }
 
+.link-list-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .link-list-item {
     font-weight: 500;
     font-size: 16px;
@@ -430,6 +458,7 @@ body {
 }
 
 .pic-list-title {
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -438,6 +467,7 @@ body {
 }
 
 .pic-list-text {
+    margin-top: 4px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
