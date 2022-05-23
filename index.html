@@ -30,7 +30,7 @@
             </nav>
             <ul class="list header-list">
                 <li><a class="contact-nav email link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact-nav link" href="tel:++380961111111">+38 096 111 11 11</a></li>
+                <li><a class="contact-nav link tel-link" href="tel:++380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -47,9 +47,9 @@
 
 
         <section class="pros">
-            <div class="container pros-container">
+            <div class="container">
                 <!--pros-->
-                <ul class="pros list">
+                <ul class="pros-list list test">
                     <li class="pros-item">
                         <h3 class="pros-title">Внимание к деталям</h3>
                         <p class="pros-text">Идейные соображения, а также начало повседневной работы по формированию
@@ -98,23 +98,34 @@
                 <ul class="team-gallery list">
                     <li class="team-item"><img class="team-gallery-img" src="./images/igor.jpg" width="270" height="260"
                             alt="igor">
-                        <h3 class="team-gallery-title">Игорь Демьяненко</h3>
-                        <p class="team-gallery-text">Product Designer</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-gallery-title">Игорь Демьяненко</h3>
+                            <p class="team-gallery-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item"><img class="team-gallery-img" src="./images/olga.jpg" width="270" height="260"
                             alt="olga">
-                        <h3 class="team-gallery-title">Ольга Репина</h3>
-                        <p class="team-gallery-text">Frontend Developer</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-gallery-title">Ольга Репина</h3>
+                            <p class="team-gallery-text">Frontend Developer</p>
+                        </div>
+
                     </li>
                     <li class="team-item"><img class="team-gallery-img" src="./images/nikolai.jpg" width="270"
                             height="260" alt="nikolai">
-                        <h3 class="team-gallery-title">Николай Тарасов</h3>
-                        <p class="team-gallery-text">Marketing</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-gallery-title">Николай Тарасов</h3>
+                            <p class="team-gallery-text">Marketing</p>
+                        </div>
+
                     </li>
                     <li class="team-item"><img class="team-gallery-img" src="./images/misha.jpg" width="270"
                             height="260" alt="misha">
-                        <h3 class="team-gallery-title">Михаил Ермаков</h3>
-                        <p class="team-gallery-text">UI Designer</p>
+                        <div class="team-wrapper">
+                            <h3 class="team-gallery-title">Михаил Ермаков</h3>
+                            <p class="team-gallery-text">UI Designer</p>
+                        </div>
+
                     </li>
                 </ul>
             </div>
@@ -125,7 +136,7 @@
     <footer class="footer">
         <div class="container">
             <a class="logo link" href="">Web<span class="accent">Studio</span></a>
-            <address>
+            <address class="adress-wrapper">
                 <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
                 <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 <a class="contact-link link footer-link" href="tel:++380961111111">+38 096 111 11 11</a>
